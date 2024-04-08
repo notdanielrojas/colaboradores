@@ -1,0 +1,24 @@
+/* Estilos del contenedor principal */
+.container-fluid {
+  height: 100vh; /* Altura del contenedor igual al 100% del viewport height */
+  background: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+  border-radius: 16px; /* Bordes redondeados */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Sombra */
+  backdrop-filter: blur(5px); /* Desenfoque del fondo */
+  -webkit-backdrop-filter: blur(
+    5px
+  ); /* Desenfoque del fondo para navegadores WebKit */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borde semi-transparente */
+}
+
+/* Estilos del fondo de la página */
+body {
+  background-image: url("./assets/img/fondo.jpg"); /* Imagen de fondo */
+  -webkit-background-size: cover; /* Ajuste del tamaño de la imagen para navegadores WebKit */
+  -moz-background-size: cover; /* Ajuste del tamaño de la imagen para navegadores Mozilla */
+  -o-background-size: cover; /* Ajuste del tamaño de la imagen para navegadores Opera */
+  background-size: cover; /* Ajuste del tamaño de la imagen para otros navegadores */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
+  background-position: center; /* Posición de la imagen de fondo en el centro */
+}
